@@ -1,0 +1,65 @@
+.controller {
+   width: 30%;
+   height: 100%;
+   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.51);
+   padding: 8px;
+   overflow: auto;
+   position: relative;
+}
+
+h4 {
+   padding: 5px;
+}
+
+hr {
+   margin: 6px;
+}
+
+.divider {
+   height: 12px;
+}
+
+button {
+   padding: 8px 12px;
+   margin: 5px;
+   border: none;
+   outline: none;
+   background: transparent;
+   box-shadow: 0 0 3px 0 black;
+   border-radius: 10px;
+   cursor: pointer;
+}
+
+p {
+   padding-left: 12px;
+}
+
+.element-control {
+   width: 96%;
+   height: 40px;
+   background-color: aliceblue;
+   margin: 14px auto;
+   box-shadow: 0 0 3px 0 black;
+   padding: 10px;
+   border-radius: 3px;
+   display: flex;
+   align-items: center;
+   position: relative;
+   transition: 0.3s;
+}
+
+.element-control:hover {
+   transform: scale(1.02);
+}
+
+.delBtn {
+   position: absolute;
+   right: 10px;
+   padding: 0;
+   margin: 0;
+   color: red;
+   background: transparent;
+   outline: none;
+   box-shadow: none;
+   border: none;
+}

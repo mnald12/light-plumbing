@@ -1,0 +1,62 @@
+.panel {
+   width: 70%;
+   height: 100%;
+   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.51);
+   position: relative;
+}
+
+.element {
+   width: auto;
+   height: auto;
+   padding: 10px 16px;
+   box-shadow: 0 0 3px 0 black;
+   border-radius: 5px;
+   margin: 10px auto;
+   cursor: move; /* fallback if grab cursor is unsupported */
+   cursor: grab;
+   cursor: -moz-grab;
+   cursor: -webkit-grab;
+   background-color: white;
+}
+
+.on-hover {
+   outline: 3px solid blue;
+}
+
+.delete-connection-menu {
+   width: 200px;
+   height: 50px;
+   padding: 5px;
+   z-index: 100;
+}
+
+.custom-menu {
+   z-index: 1000;
+   position: absolute;
+   background-color: #3e3e3e;
+   padding: 2px;
+}
+
+.delete-menu {
+   width: auto;
+   height: auto;
+   z-index: 1000;
+   position: absolute;
+   background-color: #3e3e3e;
+   padding: 6px;
+   border-radius: 5px;
+   display: none;
+}
+.delete-menu button {
+   background: aliceblue;
+}
+
+.element button {
+   padding: 0;
+   margin: 0;
+   box-shadow: none !important;
+}
+
+.element .switch-on {
+   display: none;
+}
